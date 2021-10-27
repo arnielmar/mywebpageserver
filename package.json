@@ -4,8 +4,8 @@
   "description": "Server for my portfolio webpage",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon /app.js",
-    "start": "node /app.js",
+    "dev": "nodemon app.js",
+    "start": "node app.js",
     "lint": "eslint '**/*.js' --ignore-pattern 'node_modules/'"
   },
   "author": "Árni Elmar Hrafnsson",
