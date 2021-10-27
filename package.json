@@ -1,0 +1,25 @@
+{
+  "name": "myserver",
+  "version": "1.0.0",
+  "description": "Server for my portfolio webpage",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon /app.js",
+    "start": "node /app.js",
+    "lint": "eslint app.js /server --fix"
+  },
+  "author": "Árni Elmar Hrafnsson",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-fetch": "^3.0.0",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "nodemon": "^2.0.14"
+  }
+}
