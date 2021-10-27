@@ -1,0 +1,490 @@
+{
+  "defaults": {
+    "defaultTitle": "Árni Elmar Hrafnsson"
+  },
+  "header": {
+    "nav": [
+      {
+        "name": "Ferilskrá",
+        "href": "/cv"
+      },
+      {
+        "name": "Verkefni",
+        "href": "/projects"
+      },
+      {
+        "name": "Um Mig",
+        "href": "/about"
+      }
+    ]
+  },
+  "footerLinks": [
+    "Email",
+    "GitHub"
+  ],
+  "contactInfo": [
+    {
+      "type": "Phone",
+      "text": "8670545",
+      "href": "tel:003548670545"
+    },
+    {
+      "type": "Email",
+      "text": "arnielmar@gmail.com",
+      "href": "mailto:arnielmar@gmail.com"
+    },
+    {
+      "type": "GitHub",
+      "text": "arnielmar",
+      "href": "https://github.com/arnielmar/"
+    },
+    {
+      "type": "Website",
+      "text": "arnielmar.com",
+      "href": "https://arnielmar.com"
+    }
+  ],
+  "projects": {
+    "title": "Verkefni",
+    "subtitle": "Nokkur valin verkefni sem ég hef unnið",
+    "repoText": "Smelltu hér til að skoða kóðann",
+    "data": [
+      {
+        "name": "RÚV Fréttir - Verkefni í Vefforritun 2",
+        "description": "Framendi fyrir vefsíðu sem nær í fréttir af RÚV í gegnum REST vefþjónustu sem var sköffuð. Framendi er skrifaður í React.",
+        "link": "https://vef2-verk5-aeh25.herokuapp.com",
+        "repo": "https://github.com/arnielmar/vef2-verk5-aeh25",
+        "id": 0
+      },
+      {
+        "name": "Star Wars upplýsingar – Verkefni í Vefforritun 2",
+        "description": "NextJS vefforrit skrifað með TypeScript. Nær í öll gögn í gegnum GraphQL API með getServerSideProps svo gögnin eru sótt og útbúin á bakenda og gerð aðgengileg fyrir React forrit á framenda.",
+        "link": "https://vef2-verk6-aeh25.herokuapp.com",
+        "repo": "https://github.com/arnielmar/vef2-verk6-aeh25",
+        "id": 1
+      },
+      {
+        "name": "Breakout 3d – Verkefni í Tölvugrafík",
+        "description": "Klassíski leikurinn Breakout í 3d útgáfu skrifaður fyrir vefinn í JavaScript og WebGL.",
+        "link": "https://notendur.hi.is/aeh25/tolvugrafik/Verkefni%203/breakout.html",
+        "repo": "https://github.com/arnielmar/breakout",
+        "id": 2
+      },
+      {
+        "name": "Vaktaumsjón fyrir vinnustaði – Verkefni í Hugbúnaðarverkefni 1",
+        "description": "Vefsíða hönnuð í Java Spring fyrir vinnustaði til að halda utan um vaktaumsjón. Vann þetta í hópavinnu með tveimur öðrum.",
+        "link": "https://github.com/GaddiSunshine/Finnbogi",
+        "repo": "https://github.com/GaddiSunshine/Finnbogi",
+        "id": 3
+      },
+      {
+        "name": "Vaktaumsjón fyrir vinnustaði – Verkefni í Hugbúnaðarverkefni 2",
+        "description": "Framhald af fyrra verkefni unnið í sama hóp. Vaktaumsjón fyrir vinnustaði í Android appi, unnið í Android Studio.",
+        "link": "https://github.com/HallurKrist/Finnbogi-Mobile-v2",
+        "repo": "https://github.com/HallurKrist/Finnbogi-Mobile-v2",
+        "id": 4
+      }
+    ]
+  },
+  "cv": {
+    "listLink": [
+      "Phone",
+      "Email",
+      "GitHub",
+      "Website"
+    ],
+    "listProjects": [0, 1, 2, 3, 4],
+    "info": [
+      {
+        "text": "Ég heiti Árni Elmar og ég er háskólanemi á minni síðustu önn í Tölvunarfræði, BS í Háskóla Íslands. Ég hef mikinn áhuga á vefforritun og hugbúnaðargerð. Ég hef mikla reynslu af forritun í Java og JavaScript úr náminu og tel mig hafa góða þekkingu á báðum forritunarmálum. Ég hef einnig góða reynslu af Object-Oriented forritun og notkun á Agile aðferðafræði. Ég er fljótur að læra nýja hluti, hef sjálfstæð vinnubrögð og er vanur því að vinna í hóp."
+      },
+      {
+        "text": "Ég hef æft og spilað körfubolta frá 5 ára aldri og geri enn. Ég spila núna í efstu deild karla með meistaraflokki Breiðabliks þar sem ég er að spila mitt fimmta tímabil, en ég hef einnig spilað með Snæfell eitt tímabil og þar á undan spilaði ég með Fjölni. Ég hef einnig spilað fyrir öll yngri landslið Íslands, þar sem ég var meðal annars fyrirliði í U18. Ég hef einnig áhuga á lyftingum, golfi og auðvitað tölvum og því sem við kemur."
+      }
+    ],
+    "education": {
+      "title": "Menntun",
+      "data": [
+        {
+          "title": "Háskóli Íslands",
+          "subtitle": "Tölvunarfræði, BS",
+          "description": "Brautskráist í febrúar 2022. Núverandi meðaleinkunn er 9,16.",
+          "start": "2018",
+          "end": "2022",
+          "href": "/cv/courses",
+          "hrefDescription": "Smelltu hér til að sjá námsferil",
+          "courses": {
+            "title": "Námsferill",
+            "subtitle": "Yfirlit yfir námsferil í Tölvunarfræði BS hjá Háskóla Íslands",
+            "subsubtitle": "Hef lokið 162 einingum og er að taka 18 einingar á þessu misseri sem er jafnframt mitt síðasta",
+            "data": {
+              "headers": [
+                "Áfangi",
+                "Áfanganúmer",
+                "Einingar",
+                "Einkunn"
+              ],
+              "courses": [
+                {
+                  "semester": "Des 2021",
+                  "data": [
+                    {
+                      "courseName": "Skýjaforritun og stórgögn",
+                      "courseNumber": "REI504M",
+                      "credits": "6.0",
+                      "grade": "Ólokið"
+                    },
+                    {
+                      "courseName": "Tölvuleikjaforritun",
+                      "courseNumber": "TÖL308G",
+                      "credits": "6.0",
+                      "grade": "Ólokið"
+                    },
+                    {
+                      "courseName": "Viðhald hugbúnaðar",
+                      "courseNumber": "HBV103M",
+                      "credits": "6.0",
+                      "grade": "Ólokið"
+                    }
+                  ]
+                },
+                {
+                  "semester": "Maí 2021",
+                  "data": [
+                    {
+                      "courseName": "Tölvur, stýrikerfi og tölvufærni",
+                      "courseNumber": "TÖL205G",
+                      "credits": "4.0",
+                      "grade": "10,0"
+                    },
+                    {
+                      "courseName": "Keppnisforritun",
+                      "courseNumber": "TÖL607G",
+                      "credits": "6.0",
+                      "grade": "Staðið"
+                    },
+                    {
+                      "courseName": "Rökstudd forritun",
+                      "courseNumber": "TÖL212M",
+                      "credits": "6.0",
+                      "grade": "9,0"
+                    },
+                    {
+                      "courseName": "Vefforritun 2",
+                      "courseNumber": "HBV403G",
+                      "credits": "6.0",
+                      "grade": "9,5"
+                    },
+                    {
+                      "courseName": "Tölvugrafík",
+                      "courseNumber": "TÖL203M",
+                      "credits": "6.0",
+                      "grade": "9,0"
+                    },
+                    {
+                      "courseName": "Hugbúnaðarverkefni 2",
+                      "courseNumber": "HBV601G",
+                      "credits": "6.0",
+                      "grade": "9,5"
+                    }
+                  ]
+                },
+                {
+                  "semester": "Des 2020",
+                  "data": [
+                    {
+                      "courseName": "Rafmyntir",
+                      "courseNumber": "STÆ523M",
+                      "credits": "6.0",
+                      "grade": "9,0"
+                    },
+                    {
+                      "courseName": "Formleg mál og reiknanleiki",
+                      "courseNumber": "TÖL301G",
+                      "credits": "6.0",
+                      "grade": "9,0"
+                    },
+                    {
+                      "courseName": "Hugbúnaðarverkefni 1",
+                      "courseNumber": "TÖL501G",
+                      "credits": "6.0",
+                      "grade": "10,0"
+                    },
+                    {
+                      "courseName": "Forritunarmál",
+                      "courseNumber": "TÖL304G",
+                      "credits": "6.0",
+                      "grade": "9,0"
+                    }
+                  ]
+                },
+                {
+                  "semester": "Maí 2020",
+                  "data": [
+                    {
+                      "courseName": "Greining reiknirita",
+                      "courseNumber": "TÖL403G",
+                      "credits": "6.0",
+                      "grade": "10,0"
+                    },
+                    {
+                      "courseName": "Stýrikerfi",
+                      "courseNumber": "TÖL401G",
+                      "credits": "6.0",
+                      "grade": "Staðið"
+                    },
+                    {
+                      "courseName": "Þróun hugbúnaðar",
+                      "courseNumber": "HBV401G",
+                      "credits": "6.0",
+                      "grade": "10,0"
+                    },
+                    {
+                      "courseName": "Stærðfræði og reiknifræði",
+                      "courseNumber": "REI201G",
+                      "credits": "8.0",
+                      "grade": "10,0"
+                    }
+                  ]
+                },
+                {
+                  "semester": "Des 2019",
+                  "data": [
+                    {
+                      "courseName": "Tölvutækni og forritun",
+                      "courseNumber": "TÖL309G",
+                      "credits": "6.0",
+                      "grade": "9,0"
+                    },
+                    {
+                      "courseName": "Hagnýt stærðfræðigreining",
+                      "courseNumber": "STÆ105G",
+                      "credits": "8.0",
+                      "grade": "8,5"
+                    },
+                    {
+                      "courseName": "Vefforritun 1",
+                      "courseNumber": "TÖL107G",
+                      "credits": "8.0",
+                      "grade": "9,0"
+                    },
+                    {
+                      "courseName": "Gagnasafnsfræði",
+                      "courseNumber": "TÖL303G",
+                      "credits": "6.0",
+                      "grade": "10,0"
+                    }
+                  ]
+                },
+                {
+                  "semester": "Maí 2020",
+                  "data": [
+                    {
+                      "courseName": "Greining reiknirita",
+                      "courseNumber": "TÖL403G",
+                      "credits": "6.0",
+                      "grade": "10,0"
+                    },
+                    {
+                      "courseName": "Stýrikerfi",
+                      "courseNumber": "TÖL401G",
+                      "credits": "6.0",
+                      "grade": "Staðið"
+                    },
+                    {
+                      "courseName": "Þróun hugbúnaðar",
+                      "courseNumber": "HBV401G",
+                      "credits": "6.0",
+                      "grade": "10,0"
+                    },
+                    {
+                      "courseName": "Stærðfræði og reiknifræði",
+                      "courseNumber": "REI201G",
+                      "credits": "8.0",
+                      "grade": "10,0"
+                    }
+                  ]
+                },
+                {
+                  "semester": "Maí 2019",
+                  "data": [
+                    {
+                      "courseName": "Greining og hönnun stafrænna rása",
+                      "courseNumber": "TÖV201G",
+                      "credits": "6.0",
+                      "grade": "8,5"
+                    },
+                    {
+                      "courseName": "Greining og hönnun stafrænna rása - verklegt",
+                      "courseNumber": "TÖV202G",
+                      "credits": "2.0",
+                      "grade": "10,0"
+                    },
+                    {
+                      "courseName": "Líkindareikningur og tölfræði",
+                      "courseNumber": "STÆ203G",
+                      "credits": "6.0",
+                      "grade": "8,5"
+                    },
+                    {
+                      "courseName": "Tölvunarfræði 2",
+                      "courseNumber": "TÖL203G",
+                      "credits": "6.0",
+                      "grade": "10,0"
+                    },
+                    {
+                      "courseName": "Viðmótsforritun",
+                      "courseNumber": "HBV201G",
+                      "credits": "8.0",
+                      "grade": "10,0"
+                    }
+                  ]
+                },
+                {
+                  "semester": "Des 2018",
+                  "data": [
+                    {
+                      "courseName": "Línuleg algebra A",
+                      "courseNumber": "STÆ106G",
+                      "credits": "8.0",
+                      "grade": "7,0"
+                    },
+                    {
+                      "courseName": "Stærðfræðimynstur",
+                      "courseNumber": "TÖL104G",
+                      "credits": "8.0",
+                      "grade": "8,0"
+                    },
+                    {
+                      "courseName": "Tölvunarfræði 1",
+                      "courseNumber": "TÖL101G",
+                      "credits": "6.0",
+                      "grade": "9,0"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "Fjölbrautaskóli Snæfellinga",
+          "subtitle": "Náttúrufræðibraut",
+          "description": "Útskrifaðist af náttúrufræðibraut með hæstu einkunn.",
+          "start": "2016",
+          "end": "2017"
+        },
+        {
+          "title": "Borgarholtsskóli",
+          "subtitle": "Náttúrufræðibraut, afrekssvið",
+          "description": "Útskrifaðist af náttúrufræðibraut með hæstu einkunn.",
+          "start": "2014",
+          "end": "2016"
+        }
+      ]
+    },
+    "workExperience": {
+      "title": "Starfsreynsla",
+      "data": [
+        {
+          "title": "Golfklúbbur Reykjavíkur – Vallarstarfsmaður",
+          "description": "Sumarstarfsmaður á Korpúlfsstaðavelli með skóla ásamt því að vinna þar veturinn 2017 – 2018. Fjölbreytt vinna á golfvelli sem krefst sjálfstæðra vinnubragða.",
+          "start": "2017",
+          "end": "2021"
+        },
+        {
+          "title": "Breiðablik kkd.",
+          "description": "Körfuboltaþjálfari hjá strákum í 8. og 9. bekk.",
+          "start": "2019",
+          "end": "2020"
+        }
+      ]
+    },
+    "references": {
+      "title": "Meðmælendur",
+      "data": [
+        {
+          "title": "Fyrrverandi yfirmaður",
+          "description": "Hólmar Freyr Christiansson, Vallarstjóri Korpúlfsstaðarvallar hjá Golfklúbbi Reykjavíkur.",
+          "phone": {
+            "text": "S. 6602777",
+            "href": "tel:003546602777"
+          },
+          "email": {
+            "text": "Netfang: holmar@grgolf.is",
+            "href": "mailto:holmar@grgolf.is"
+          }
+        },
+        {
+          "title": "Þjálfari hjá Breiðablik",
+          "description": "Pétur Ingvarsson, Þjálfari meistaraflokks karla í körfuknattleiksdeils Breiðabliks.",
+          "phone": {
+            "text": "S. 8977979",
+            "href": "tel:003548977979"
+          },
+          "email": {
+            "text": "Netfang: petur@aslandsskoli.is",
+            "href": "mailto:petur@aslandsskoli.is"
+          }
+        }
+      ]
+    },
+    "skills": {
+      "title": "Hæfni",
+      "data": [
+        {
+          "name": "Java",
+          "rating": "4.5"
+        },
+        {
+          "name": "JavaScript",
+          "rating": "4.5"
+        },
+        {
+          "name": "TypeScript",
+          "rating": "3"
+        },
+        {
+          "name": "HTML",
+          "rating": "4.5"
+        },
+        {
+          "name": "CSS",
+          "rating": "3.5"
+        },
+        {
+          "name": "React",
+          "rating": "3"
+        },
+        {
+          "name": "NodeJS",
+          "rating": "3.5"
+        },
+        {
+          "name": "Express",
+          "rating": "3.5"
+        },
+        {
+          "name": "SQL",
+          "rating": "3.5"
+        },
+        {
+          "name": "Python",
+          "rating": "3"
+        },
+        {
+          "name": "C/C++",
+          "rating": "2"
+        },
+        {
+          "name": "Rest",
+          "rating": "3.5"
+        },
+        {
+          "name": "Git",
+          "rating": "4"
+        }
+      ]
+    }
+  }
+}
