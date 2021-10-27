@@ -1,6 +1,8 @@
 import dotenv from 'dotenv';
 import express from 'express';
 
+import { router as apiRouter } from './api/router.js';
+
 dotenv.config();
 const {
   HOST: host = 'localhost',
@@ -23,6 +25,8 @@ app.use((req, res, next) => {
   );
   next();
 });
+
+app.use('/', apiRouter);
 
 /**
  * Middleware for 404 errors (not found).

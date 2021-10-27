@@ -95,7 +95,7 @@ export async function set(cacheKey, data, ttl) {
  * @param {string} cacheKey Cache key to get ttl for
  * @returns {number} ttl for cacheKey if it exists, -1 otherwise
  */
- export async function keyTtl(cacheKey) {
+export async function keyTtl(cacheKey) {
   // Caching turned off
   if (!client || !asyncTtl) {
     return -1;
