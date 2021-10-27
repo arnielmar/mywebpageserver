@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon /app.js",
     "start": "node /app.js",
-    "lint": "eslint **/*.js --fix"
+    "lint": "eslint '**/*.js' --ignore-pattern 'node_modules/'"
   },
   "author": "Árni Elmar Hrafnsson",
   "license": "ISC",
