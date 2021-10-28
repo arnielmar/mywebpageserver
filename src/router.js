@@ -1,7 +1,7 @@
 import express from 'express';
 
-import { catchErrors } from '../utils/catchErrors.js';
-import { getData } from '../utils/getData.js';
+import { catchErrors } from './utils/catchErrors.js';
+import { getData } from './utils/getData.js';
 
 export const router = express.Router();
 
