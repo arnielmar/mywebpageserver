@@ -1,7 +1,7 @@
 import dotenv from 'dotenv';
 import express from 'express';
 
-import { router as apiRouter } from './api/router.js';
+import { router as apiRouter } from './router.js';
 
 dotenv.config();
 const {
