@@ -5,12 +5,12 @@ import { router as apiRouter } from './api/router.js';
 
 dotenv.config();
 const {
-  HOST: host = 'localhost',
   PORT: port = 5000,
 } = process.env;
 
 const app = express();
 
+/*
 app.use((req, res, next) => {
   res.header(
     'Access-Control-Allow-Origin', '*',
@@ -25,6 +25,7 @@ app.use((req, res, next) => {
   );
   next();
 });
+*/
 
 app.use('/', apiRouter);
 
@@ -49,5 +50,5 @@ app.use((err, req, res, next) => {  // eslint-disable-line
 });
 
 app.listen(port, () => {
-  console.info(`Server running at http://${host}:${port}/`);
+  console.info(`Server running at http://localhost:${port}/`);
 });
