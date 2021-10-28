@@ -4,6 +4,7 @@ import express from 'express';
 import { router as apiRouter } from './router.js';
 
 dotenv.config();
+
 const {
   PORT: port = 5000,
 } = process.env;
