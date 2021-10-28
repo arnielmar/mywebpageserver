@@ -10,7 +10,6 @@ const {
 
 const app = express();
 
-/*
 app.use((req, res, next) => {
   res.header(
     'Access-Control-Allow-Origin', '*',
@@ -25,21 +24,14 @@ app.use((req, res, next) => {
   );
   next();
 });
-*/
 
 app.use('/', apiRouter);
 
-/**
- * Middleware for 404 errors (not found).
- */
- app.use((req, res, next) => { // eslint-disable-line
+app.use((req, res, next) => { // eslint-disable-line
   res.status(404).json({ error: 'Not found' });
 });
 
-/**
- * Middleware fyrir aðrar villur.
- */
-app.use((err, req, res, next) => {  // eslint-disable-line
+app.use((err, req, res, next) => { // eslint-disable-line
   console.error(err);
 
   if (err instanceof SyntaxError && err.status === 400 && 'body' in err) {
