@@ -117,6 +117,12 @@
             "title": "Námsferill",
             "subtitle": "Yfirlit yfir námsferil í Tölvunarfræði BS hjá Háskóla Íslands",
             "subsubtitle": "Hef lokið 162 einingum og er að taka 18 einingar á þessu misseri sem er jafnframt mitt síðasta",
+            "headers": [
+              "Áfangaheiti",
+              "Áfanganúmer",
+              "Einingar",
+              "Einkunn"
+            ],
             "data": [
               {
                 "semester": "Des 2021",
