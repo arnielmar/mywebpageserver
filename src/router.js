@@ -48,15 +48,13 @@ async function getProject(req, res, next) {
 }
 
 async function getCourses(req, res) {
+  const { cv } = await getData();
   const {
-    cv: {
-      education: {
-        data: {
-          courses
-        }
-      }
+    education: {
+      data,
     }
-  } = await getData();
+  } = cv;
+  const courses = data[0].courses;
   return res.json(courses);
 }
 
