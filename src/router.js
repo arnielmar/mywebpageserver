@@ -5,12 +5,12 @@ import { getData } from './utils/getData.js';
 
 export const router = express.Router();
 
-export async function getIndex(req, res) {
+async function getIndex(req, res) {
   const data = await getData();
   return res.json(data);
 }
 
-export async function getCV(req, res) {
+async function getCV(req, res) {
   const { cv, projects } = await getData();
   const data = {
     cv,
@@ -19,7 +19,7 @@ export async function getCV(req, res) {
   return res.json(data);
 }
 
-export async function getAbout(req, res) {
+async function getAbout(req, res) {
   const {
     cv: {
       info,
@@ -28,12 +28,27 @@ export async function getAbout(req, res) {
   return res.json(info);
 }
 
-export async function getProjects(req, res) {
+async function getProjects(req, res) {
   const { projects } = await getData();
   return res.json(projects);
+}
+
+async function getProject(req, res, next) {
+  const { id } = req.params;
+
+  const { projects } = await getData();
+  const foundProject = projects.data[id];
+
+  if (!foundProject) {
+    // Goes to 404 middleware
+    return next();
+  }
+
+  return res.json(foundProject);
 }
 
 router.get('/', catchErrors(getIndex));
 router.get('/cv', catchErrors(getCV));
 router.get('/about', catchErrors(getAbout));
 router.get('/projects', catchErrors(getProjects));
+router.get('/projects/:id', catchErrors(getProject));
