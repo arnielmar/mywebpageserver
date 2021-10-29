@@ -54,35 +54,35 @@
         "description": "Framendi fyrir vefsíðu sem nær í fréttir af RÚV í gegnum REST vefþjónustu sem var sköffuð. Framendi er skrifaður í React.",
         "link": "https://vef2-verk5-aeh25.herokuapp.com",
         "repo": "https://github.com/arnielmar/vef2-verk5-aeh25",
-        "id": 0
+        "id": "0"
       },
       {
         "name": "Star Wars upplýsingar – Verkefni í Vefforritun 2",
         "description": "NextJS vefforrit skrifað með TypeScript. Nær í öll gögn í gegnum GraphQL API með getServerSideProps svo gögnin eru sótt og útbúin á bakenda og gerð aðgengileg fyrir React forrit á framenda.",
         "link": "https://vef2-verk6-aeh25.herokuapp.com",
         "repo": "https://github.com/arnielmar/vef2-verk6-aeh25",
-        "id": 1
+        "id": "1"
       },
       {
         "name": "Breakout 3d – Verkefni í Tölvugrafík",
         "description": "Klassíski leikurinn Breakout í 3d útgáfu skrifaður fyrir vefinn í JavaScript og WebGL.",
         "link": "https://notendur.hi.is/aeh25/tolvugrafik/Verkefni%203/breakout.html",
         "repo": "https://github.com/arnielmar/breakout",
-        "id": 2
+        "id": "2"
       },
       {
         "name": "Vaktaumsjón fyrir vinnustaði – Verkefni í Hugbúnaðarverkefni 1",
         "description": "Vefsíða hönnuð í Java Spring fyrir vinnustaði til að halda utan um vaktaumsjón. Vann þetta í hópavinnu með tveimur öðrum.",
         "link": "https://github.com/GaddiSunshine/Finnbogi",
         "repo": "https://github.com/GaddiSunshine/Finnbogi",
-        "id": 3
+        "id": "3"
       },
       {
         "name": "Vaktaumsjón fyrir vinnustaði – Verkefni í Hugbúnaðarverkefni 2",
         "description": "Framhald af fyrra verkefni unnið í sama hóp. Vaktaumsjón fyrir vinnustaði í Android appi, unnið í Android Studio.",
         "link": "https://github.com/HallurKrist/Finnbogi-Mobile-v2",
         "repo": "https://github.com/HallurKrist/Finnbogi-Mobile-v2",
-        "id": 4
+        "id": "4"
       }
     ]
   },
