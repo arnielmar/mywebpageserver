@@ -47,8 +47,44 @@ async function getProject(req, res, next) {
   return res.json(foundProject);
 }
 
+async function getCourses(req, res) {
+  const {
+    cv: {
+      education: {
+        data: {
+          courses
+        }
+      }
+    }
+  } = await getData();
+  return res.json(courses);
+}
+
+async function getCourse(req, res, next) {
+  const { id } = req.params;
+
+  const {
+    cv: {
+      education: {
+        data: {
+          courses
+        }
+      }
+    }
+  } = await getData();
+  const foundProject = projects.data[id];
+
+  if (!foundProject) {
+    // Goes to 404 middleware
+    return next();
+  }
+
+  return res.json(foundProject);
+}
+
 router.get('/', catchErrors(getIndex));
 router.get('/cv', catchErrors(getCV));
 router.get('/about', catchErrors(getAbout));
 router.get('/projects', catchErrors(getProjects));
 router.get('/projects/:id', catchErrors(getProject));
+router.get('/courses', catchErrors(getCourses));
