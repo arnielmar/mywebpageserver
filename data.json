@@ -95,12 +95,8 @@
     ],
     "listProjects": [0, 1, 2, 3, 4],
     "info": [
-      {
-        "text": "Ég heiti Árni Elmar og ég er háskólanemi á minni síðustu önn í Tölvunarfræði, BS í Háskóla Íslands. Ég hef mikinn áhuga á vefforritun og hugbúnaðargerð. Ég hef mikla reynslu af forritun í Java og JavaScript úr náminu og tel mig hafa góða þekkingu á báðum forritunarmálum. Ég hef einnig góða reynslu af Object-Oriented forritun og notkun á Agile aðferðafræði. Ég er fljótur að læra nýja hluti, hef sjálfstæð vinnubrögð og er vanur því að vinna í hóp."
-      },
-      {
-        "text": "Ég hef æft og spilað körfubolta frá 5 ára aldri og geri enn. Ég spila núna í efstu deild karla með meistaraflokki Breiðabliks þar sem ég er að spila mitt fimmta tímabil, en ég hef einnig spilað með Snæfell eitt tímabil og þar á undan spilaði ég með Fjölni. Ég hef einnig spilað fyrir öll yngri landslið Íslands, þar sem ég var meðal annars fyrirliði í U18. Ég hef einnig áhuga á lyftingum, golfi og auðvitað tölvum og því sem við kemur."
-      }
+      "Ég heiti Árni Elmar og ég er háskólanemi á minni síðustu önn í Tölvunarfræði, BS í Háskóla Íslands. Ég hef mikinn áhuga á vefforritun og hugbúnaðargerð. Ég hef mikla reynslu af forritun í Java og JavaScript úr náminu og tel mig hafa góða þekkingu á báðum forritunarmálum. Ég hef einnig góða reynslu af Object-Oriented forritun og notkun á Agile aðferðafræði. Ég er fljótur að læra nýja hluti, hef sjálfstæð vinnubrögð og er vanur því að vinna í hóp.",
+      "Ég hef æft og spilað körfubolta frá 5 ára aldri og geri enn. Ég spila núna í efstu deild karla með meistaraflokki Breiðabliks þar sem ég er að spila mitt fimmta tímabil, en ég hef einnig spilað með Snæfell eitt tímabil og þar á undan spilaði ég með Fjölni. Ég hef einnig spilað fyrir öll yngri landslið Íslands, þar sem ég var meðal annars fyrirliði í U18. Ég hef einnig áhuga á lyftingum, golfi og auðvitað tölvum og því sem við kemur."
     ],
     "education": {
       "title": "Menntun",
